@@ -33,6 +33,8 @@ p {
 
 .right {
     width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .part-one {
@@ -71,4 +73,37 @@ p {
     justify-content: space-around;
     margin-top: 20px;
     background: url(images/dream-bg.png) no-repeat right center;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-around;
+    background: url(images/exp-bg.png) no-repeat left center;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px dimgray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 80%;
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
 }
